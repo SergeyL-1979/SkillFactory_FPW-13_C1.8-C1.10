@@ -6,10 +6,11 @@ class Rectangle:
         self.width = w
         self.height = h
 
-    def information_employee(self):
-        return f'x = {self.x}, y = {self.y}, width = {self.width}, height = {self.height}'
-
+    def __str__(self):
+        return f'x = {self.x}, ' \
+               f'y = {self.y}, ' \
+               f'width = {self.width}, ' \
+               f'height = {self.height}'
 
 rect1 = Rectangle(5, 10, 50, 100)
-
-print(str(rect1.information_employee()))
+print(rect1))))
