@@ -13,4 +13,4 @@ class Rectangle:
                f'height = {self.height}'
 
 rect1 = Rectangle(5, 10, 50, 100)
-print(rect1))))
+print(rect1)
